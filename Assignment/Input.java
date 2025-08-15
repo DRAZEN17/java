@@ -9,5 +9,6 @@ public class Input {
          System.out.println("wats ur age : ");
          int age = scanner.nextInt();
          System.out.println("ur " + age +"yrs old");
+         scanner.close();
     }
 }
