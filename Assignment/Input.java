@@ -6,9 +6,12 @@ public class Input {
     public static void main(String[] args) {
 
          Scanner scanner = new Scanner(System.in);
-         System.out.println("wats ur age : ");
-         int age = scanner.nextInt();
-         System.out.println("ur " + age +"yrs old");
+           System.out.println("enter birth year");
+          int widh = scanner.nextInt();
+
+           int lengt = 2025; 
+          int totl = lengt - widh;
+          System.out.println(" ur age is   " + totl);
          scanner.close();
     }
 }

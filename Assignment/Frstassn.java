@@ -12,16 +12,6 @@ public class Frstassn {
           int lenght = 2025; 
           int total = lenght - width;
           System.out.println(" ur birth month  is   " + total);
-         
-          System.out.println("**************");
-
-          System.out.println("enter birth year");
-          int widh = scanner.nextInt();
-
-           int lengt = 2025; 
-          int totl = lengt - widh;
-          System.out.println(" ur age is   " + totl);
-        
         
         // int lenght = 12; 
 
