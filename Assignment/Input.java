@@ -11,7 +11,10 @@ public class Input {
 
            int lengt = 2025; 
           int totl = lengt - widh;
-          System.out.println(" ur age is   " + totl);
+          System.out.println(" ur age is   " + totl); 
+           System.out.println("whats ur name");
+           String name = scanner.next();
+           System.out.println("welcome  " + name + " ur " +totl+"yrs" );
          scanner.close();
     }
 }
