@@ -14,19 +14,19 @@ public class Swithching {
         Scanner scanner = new Scanner(System.in);
         char grade = scanner.next().charAt(0);
 
-        if (grade == 'A') {
-            System.out.println("perfect");
-        } else if (grade == 'B') {
-            System.out.println("very good");
-        } else if (grade == 'C') {
-            System.out.println("good");
-        } else if (grade == 'D') {
-            System.out.println("poor");
-        } else if (grade == 'E') {
-            System.out.println("very poor");
-        } else {
-            System.out.println("Invalid input");
-        }
+        // if (grade == 'A') {
+        //     System.out.println("perfect");
+        // } else if (grade == 'B') {
+        //     System.out.println("very good");
+        // } else if (grade == 'C') {
+        //     System.out.println("good");
+        // } else if (grade == 'D') {
+        //     System.out.println("poor");
+        // } else if (grade == 'E') {
+        //     System.out.println("very poor");
+        // } else {
+        //     System.out.println("Invalid input");
+        // }
 
         //Switch
         switch (grade) {
@@ -37,6 +37,7 @@ public class Swithching {
             case 'E' -> System.out.println("very poor");
             default -> System.out.println("Invalid input");
         }
+         scanner.close();
     }
 }
 

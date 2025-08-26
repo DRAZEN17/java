@@ -14,5 +14,6 @@ public class Control {
        else{
         System.out.println("ur short");
        }
+        newscanner.close();
     }
 }
