@@ -7,7 +7,7 @@ public class Third {
         while (input.equalsIgnoreCase("y")) {
             System.out.println("it continues.");
 
-            System.out.print("Do you want to continue? (y or no): ");
+            System.out.print("Do you want to continue? (y or n): ");
             input = scanner.nextLine();
         }
 
